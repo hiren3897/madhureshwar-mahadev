@@ -1,12 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/home/home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        Madhureshwar Mahadev
-      </header>
+      <Home />
     </div>
   );
 }
